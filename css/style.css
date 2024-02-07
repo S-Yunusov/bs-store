@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown img {
+  width: 30px;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.navbar .btn-info {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.list-group a {
+  color: #000;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: none;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background: #fff;
+}
+
+.card {
+  background: var(--bs-gray-100);
+  margin-bottom: 24px;
+}
+
+.card-img-top {
+  height: 154px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+}
+
+.d-flex {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.d-flex a {
+  width: 30px;
+  height: 30px;
+  background: blue;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+  border-radius: 8px;
+}
